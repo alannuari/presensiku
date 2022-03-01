@@ -7,7 +7,7 @@ export const UserData = [
         tidakhadir: 7,
         izin: 0,
         performance: 76,
-        result: 'Cukup Bagus',
+        result: 'Cukup Baik',
     },
     {
         id: 2,
@@ -17,7 +17,7 @@ export const UserData = [
         tidakhadir: 9,
         izin: 0,
         performance: 66,
-        result: 'Kurang Bagus',
+        result: 'Kurang Baik',
     },
     {
         id: 3,
@@ -27,7 +27,7 @@ export const UserData = [
         tidakhadir: 0,
         izin: 0,
         performance: 0,
-        result: 'Sangat Tidak Bagus',
+        result: 'Sangat Tidak Baik',
     },
     {
         id: 4,
@@ -37,7 +37,7 @@ export const UserData = [
         tidakhadir: 0,
         izin: 0,
         performance: 0,
-        result: 'Sangat Tidak Bagus',
+        result: 'Sangat Tidak Baik',
     },
     {
         id: 5,
@@ -47,7 +47,7 @@ export const UserData = [
         tidakhadir: 0,
         izin: 0,
         performance: 0,
-        result: 'Sangat Tidak Bagus',
+        result: 'Sangat Tidak Baik',
     },
     {
         id: 6,
@@ -57,6 +57,6 @@ export const UserData = [
         tidakhadir: 0,
         izin: 0,
         performance: 0,
-        result: 'Sangat Tidak Bagus',
+        result: 'Sangat Tidak Baik',
     },
 ];
