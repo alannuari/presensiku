@@ -5,7 +5,7 @@ import profilepic from '../assets/ALAN.jpg';
 
 const Profile = () => {
     return (
-        <div>
+        <div className="min-h-screen">
             <div className="bg-color-primary h-20 text-right">
                 <button className="px-5 py-4 text-xl text-white">
                     <FontAwesomeIcon icon={faBars} />

@@ -15,7 +15,7 @@ const Jadwal = () => {
     };
 
     return (
-        <div className="pb-14">
+        <div className="pb-14 min-h-screen">
             <header className="bg-color-primary text-white flex items-center justify-between p-4">
                 <h1 className="text-xl">
                     {monthHeader} {yearHeader}
