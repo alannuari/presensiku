@@ -1,16 +1,44 @@
-html,
-body {
-  padding: 0;
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
-}
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@600;700;800;900&display=swap');
 
-a {
-  color: inherit;
-  text-decoration: none;
-}
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 
-* {
-  box-sizing: border-box;
+@layer base {
+    body {
+        font-family: 'Nunito', sans-serif;
+    }
+    .menu-button {
+        @apply rounded-full cursor-pointer text-2xl;
+    }
+    .active {
+        color: rgb(33, 198, 138);
+    }
+    .bg-color-primary {
+        @apply bg-[rgb(33,198,138)];
+    }
+    .bg-custom {
+        position: relative;
+    }
+    .bg-custom::before {
+        content: '';
+        position: absolute;
+        top: -130%;
+        left: 0;
+        width: 100%;
+        height: 200%;
+        opacity: 0.4;
+        background: white;
+        clip-path: circle(60% at 100% 0);
+    }
+    .no-scrollbar::-webkit-scrollbar {
+        display: none;
+    }
+    progress::-webkit-progress-bar {
+        background: rgb(188, 230, 212);
+        height: 3px;
+    }
+    progress::-webkit-progress-value {
+        background: rgb(94, 214, 164);
+    }
 }
