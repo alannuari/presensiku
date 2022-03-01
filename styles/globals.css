@@ -31,6 +31,46 @@
         background: white;
         clip-path: circle(60% at 100% 0);
     }
+    .item-datastatistik-1::before {
+        content: '';
+        position: absolute;
+        top: 12px;
+        left: 0;
+        width: 6px;
+        height: 42px;
+        background: rgb(52, 211, 153);
+        border-radius: 0 6px 6px 0;
+    }
+    .item-datastatistik-2::before {
+        content: '';
+        position: absolute;
+        top: 12px;
+        left: 0;
+        width: 6px;
+        height: 42px;
+        background: rgb(251, 146, 60);
+        border-radius: 0 6px 6px 0;
+    }
+    .item-datastatistik-3::before {
+        content: '';
+        position: absolute;
+        top: 12px;
+        left: 0;
+        width: 6px;
+        height: 42px;
+        background: rgb(248, 113, 113);
+        border-radius: 0 6px 6px 0;
+    }
+    .item-datastatistik-4::before {
+        content: '';
+        position: absolute;
+        top: 12px;
+        left: 0;
+        width: 6px;
+        height: 42px;
+        background: rgb(96, 165, 250);
+        border-radius: 0 6px 6px 0;
+    }
     .no-scrollbar::-webkit-scrollbar {
         display: none;
     }
